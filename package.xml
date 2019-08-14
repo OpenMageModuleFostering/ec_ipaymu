@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>EC_Ipaymu</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>MIT License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>IPAYMU Payment Gateway</summary>
+    <description>IPAYMU Payment Gateway&#xD;
+IPAYMU menawarkan solusi pembayaran online. Bauran produk yang meliputi fungsi e-commerce untuk perdagangan ritel. IPAYMU memiliki tools terintegrasi ke e-commerce yang Anda butuhkan sebagai alat pembayaran secara online, dengan kartu debit, kartu kredit, bahkan penarikan uang dan pengiriman uang... https://ipaymu.com/about-us&#xD;
+&#xD;
+</description>
+    <notes>First Stable Release</notes>
+    <authors><author><name>Ellyx Christian</name><user>ellyxc</user><email>ellyxc@myphptutorials.com</email></author></authors>
+    <date>2013-06-02</date>
+    <time>06:31:16</time>
+    <contents><target name="magelocal"><dir name="EC"><dir name="Ipaymu"><dir name="Block"><file name="Form.php" hash="f3aa517e8336d94c80c22213541e3e8a"/><file name="Info.php" hash="36fccd2d0817c0bc7f208ed615670acc"/></dir><dir name="Helper"><file name="Data.php" hash="a34a22041682dfbdeb14ffb69535fcd2"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Transaction"><file name="Collection.php" hash="f026272c966f5a329ab3237d0ad3945b"/></dir><file name="Transaction.php" hash="6da0630c14c6aa300170faad1eb01293"/></dir><file name="Payment.php" hash="f9f6dc1add68faf233f9fe748148b370"/><file name="Transaction.php" hash="81b83f7c473d1d59c491924776297911"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="bbdd05e2a6337187ae2defae04b14d62"/></dir><file name="IndexController.php" hash="366e419debc3bd8eb14cf4fbaf22b248"/></dir><dir name="etc"><file name="config.xml" hash="599c00c5d54a687a4695d920b02b9cd3"/><file name="system.xml" hash="ea7b2431b01162e00c6b5f2980d8dce3"/></dir><file name="ipntest.php" hash="c1eaa51e42b9409260ed0a5f9ef3fb70"/><dir name="sql"><dir name="ipaymu_setup"><file name="mysql4-install-0.1.0.php" hash="b54be3dc6c4faeaae8338d445f8124bc"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="ipaymu"><file name="info.phtml" hash="37a2886b1e484ab015fb7230cd78462f"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="ipaymu.xml" hash="eedd2a51aa99ab64b1ce6169e6f9df25"/></dir><dir name="template"><dir name="ipaymu"><file name="form.phtml" hash="f7fd54be765a423e7cc5c81a1b18af25"/><file name="info.phtml" hash="0f47a0cc46c67fde6b99549b5e1e699d"/><file name="redirect.phtml" hash="0ed2c829dc21a7168cb1ff0e1dd1118b"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir><dir name="id_ID"><file name="EC_Ipaymu.csv" hash="44f88ea2fea895aae497c4dc74244fcd"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="EC_Ipaymu.xml" hash="7044c8945021b4daabc70a8623459a86"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>core</channel><min>1.5.0</min><max>1.7</max></package></required></dependencies>
+</package>

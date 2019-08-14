@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/EC_Ipaymu",
+    "type": "magento-module",
+    "license": "MIT-License",
+    "homepage": "",
+    "description": "IPAYMU Payment Gateway",
+    "authors": [
+    {
+        "name": "Ellyx Christian",
+        "email": "ellyxc@myphptutorials.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
